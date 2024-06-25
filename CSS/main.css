@@ -1,0 +1,234 @@
+@charset "utf-8";
+
+html {
+    height: 100;
+}
+
+body {
+    position: relative;
+    padding-bottom: 75px;
+    min-height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+div,
+li {
+    box-sizing: border-box;
+}
+.nav_inicial {
+    background: linear-gradient(90deg, #fff 20%, rgba(0, 0, 0, .6) 60%);
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: stretch;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo1 {
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+.logo1 img {
+    width: 100%;
+}
+.navegacion_global {
+    display: flex;
+    align-items: stretch;
+}
+.navegacion_global_i {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navegacion_global_i:hover {
+    background: #fff;
+    color: #42210b;
+}
+.Qui {
+    height: 500px;
+    background: center / cover no-repeat url("../images/sample_key.jpg");
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+}
+.Qui h1 {
+    font-size: 2.5rem;
+}
+.seccion_title_inner {
+    padding: 150px;
+    font-size: 1em;
+}
+.concept_inner {
+    padding: 50px 10% 30px;
+}
+.seccion_titulo {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.img_text {
+    display: flex;
+    justify-content:space-between;
+}
+.texto {
+    width: 60%;
+}
+.taza_py_text {
+    width: 35%;
+}
+.background_section {
+    background: url(../images/sample_menu_bg.jpg) no-repeat bottom;
+    background-size: 100%;
+    margin-top: 20%;
+    background-attachment: fixed;
+}
+.seccion_menu {
+    padding: 70px 10% 30px;
+}
+
+/*ver codigo CSS RIC- marco_de texto*/
+
+.centro {
+    text-align: center;
+}
+.menu_titulo {
+    display: inline-block;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5rem;
+    color: #42210b;
+    border-bottom: solid #42210b 1px;
+    margin-bottom: 20px;
+}
+.pic_tam{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.list_menu_reco {
+    padding-bottom: 50px
+}
+.mbeju_chipa {
+    width: 49%;
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px
+}
+.contenido_menu {
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+}
+.h2_menu {
+    font-size: 18px;
+    font-family: 'Noto Serif JP', serif
+}
+/*ver codigo CSS RIC menu_item_price*/
+.img {
+    width: 55%;
+    object-fit: cover ;
+    height: 400px;
+}
+.pic_m {
+    width: 55%;
+    object-fit: cover ;
+    height: 400px;
+}
+.matriz_venta {
+    background: #fff;
+    padding: 20px;
+}
+.list_m{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.menu_cafe{
+    width: 49%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10px;
+}
+.cafe_c {
+    width: 80%;
+    padding: 10px;
+}
+.cafe_c_titulo {
+    font-size: 18px;
+    font-family: 'Noto Serif JP', serif;
+}
+.cafe_c_text{
+    display: flex;
+    padding-top: 20%;
+    text-align: left;
+}
+.cafe_c_pic { /*imagen de cafe a la venta - doble - unifico*/
+    width: 20%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.seccion_acceso {
+    padding: 50px 10% 30px;
+}
+.info {
+    display: flex;
+}
+.style_d {
+    width: 80px;
+}
+
+.footer_pag {
+    height: 75px;
+    background-color: #251e19;
+    color: #fff; 
+}
+.nav_footer {
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+.logo2 {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    background-color: #251e19;
+    color: #fff;
+    background-size: contain;
+}
+.copy_r {
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+a {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(10, 13, 245);
+    text-decoration: underline;
+}
